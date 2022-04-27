@@ -1,0 +1,507 @@
+module rabbitshop
+{	
+	recipe rabbit Open Wallet
+   	 {
+		Wallet/Wallet2/Wallet3/Wallet4,
+
+		Result:Money=25,
+		Time:40.0,
+		Category:rabbitshop,
+	 }
+	 
+	 recipe rabbit Use Credit Card
+   	 {
+		CreditCard,
+
+		Result:Money=100,
+		Time:40.0,
+		Category:rabbitshop,
+	 }
+
+	recipe rabbit Sell Jewelry
+	 {
+		Necklace_Gold/Necklace_GoldRuby/Necklace_GoldDiamond/Necklace_Silver/Necklace_SilverSapphire/Necklace_SilverCrucifix/Necklace_SilverDiamond/Necklace_Crucifix/Necklace_YingYang/Necklace_Pearl/NecklaceLong_Gold/NecklaceLong_GoldDiamond/NecklaceLong_Silver/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/NecklaceLong_SilverDiamond/NecklaceLong_Amber/Necklace_Choker/Necklace_Choker_Sapphire/Necklace_Choker_Amber/Necklace_Choker_Diamond/Earring_LoopLrg_Gold/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopMed_Gold/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top/Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top/Earring_Stud_Gold/Earring_Stud_Silver/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Diamond/Earring_Dangly_Pearl/NoseRing_Gold/NoseRing_Silver/NoseStud_Gold/NoseStud_Silver/Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond/Bracelet_BangleRightGold/Bracelet_BangleLeftGold/Bracelet_ChainRightGold/Bracelet_ChainLeftGold/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/Bracelet_RightFriendshipTINT/Bracelet_LeftFriendshipTINT/Necklace_DogTag/WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack/WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown/WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold/Locket/BellyButton_DangleGold/BellyButton_DangleGoldRuby/BellyButton_DangleSilver/BellyButton_DangleSilverDiamond/BellyButton_RingGold/BellyButton_RingGoldDiamond/BellyButton_RingGoldRuby/BellyButton_RingSilver/BellyButton_RingSilverAmethyst/BellyButton_RingSilverDiamond/BellyButton_RingSilverRuby/BellyButton_StudGold/BellyButton_StudGoldDiamond/BellyButton_StudSilver/BellyButton_StudSilverDiamond,
+
+		Result:Money=2,
+		Time:1.0,
+		Category:rabbitshop,
+	 }
+	 
+/**
+*Trading Rules
+*1 Money = 20 Calories(Min.price = 2)
+*Price Higher Than 25 ,Final Price x0.95
+*Price Higher Than 50 ,Final Price x0.90
+*Price Higher Than 75 ,Final Price x0.85
+*Price Higher Than 100,Final Price x0.80
+*Price Higher Than 150,Final Price x0.75
+*Food Debuff	     ,Final Price -0.05
+*/
+
+
+/**Can Food*/
+
+   recipe Buy Canned Carrots{
+        Money=2,
+        Result:CannedCarrots2,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Tomato{
+        Money=4,
+        Result:CannedTomato2,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Soup{
+        Money=6,
+        Result:TinnedSoup,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Sardines{
+        Money=6,
+        Result:CannedSardines,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Mushroom Soup{
+        Money=8,
+        Result:CannedMushroomSoup,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Beans{
+        Money=8,
+        Result:TinnedBeans,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Potato{
+        Money=10,
+        Result:CannedPotato2,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Chili{
+        Money=12,
+        Result:CannedChili,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Peas{
+        Money=12,
+        Result:CannedPeas,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Corn{
+        Money=16,
+        Result:CannedCorn,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Tuna{
+        Money=18,
+        Result:TunaTin,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Bolognese{
+        Money=24,
+        Result:CannedBolognese,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Canned Corned Beef{
+        Money=34,
+        Result:CannedCornedBeef,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Canned Peaches{
+        Money=12,
+        Result:CannedPeaches,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Canned Fruit Cocktail{
+        Money=12,
+        Result:CannedFruitCocktail,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Canned Pineapple{
+        Money=12,
+        Result:CannedPineapple,
+        Time:20.0,
+        Category:rabbitshop,
+    }	
+
+
+
+/**Spice*/
+
+   recipe Buy Honey{
+        Money=30,
+        Result:Honey,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Ketchup{
+        Money=60,
+        Result:Ketchup,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Marinara{
+        Money=16,
+        Result:Marinara,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Mustard{
+        Money=22,
+        Result:Mustard,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Pepper{
+        Money=2,
+        Result:Pepper,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Salt{
+        Money=2,
+        Result:Salt,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Peanut Butter{
+        Money=106,
+        Result:PeanutButter,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Maple Syrup{
+        Money=48,
+        Result:MapleSyrup,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Hot Sauce{
+        Money=16,
+        Result:Hotsauce,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Vegetable Oil{
+        Money=80,
+        Result:OilVegetable,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Olive Oil{
+        Money=84,
+        Result:OilOlive,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+
+
+
+/**Grains*/
+
+   recipe Buy Flour{
+        Money=60,
+        Result:Flour,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+   recipe Buy Yeast{
+        Money=4,
+        Result:Yeast,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Ramen{
+        Money=2,
+        Result:Ramen,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Popcorn{
+        Money=6,
+        Result:Popcorn,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Can of Oats{
+        Money=60,
+        Result:OatsRaw,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Cereal{
+        Money=94,
+        Result:Cereal,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Rice{
+        Money=108,
+        Result:Rice,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Pasta{
+        Money=118,
+        Result:Pasta,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Pancake Mix{
+	Money=28,
+	Result:PancakeMix,
+	Time:20.0,
+	Category:rabbitshop,
+   }
+
+
+
+/**Miscellaneous*/
+
+   recipe Buy TVDinner{
+        Money=28,
+        Result:TVDinner,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Juice Box{
+        Money=4,
+        Result:JuiceBox,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Milk{
+        Money=10,
+        Result:Milk,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Butter{
+        Money=112,
+        Result:Butter,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Pop{
+        Money=10,
+        Result:Pop2,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Mac and Cheese{
+        Money=32,
+        Result:Macandcheese,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+
+   recipe Buy Chocolate{
+        Money=40,
+        Result:Chocolate,
+        Time:20.0,
+        Category:rabbitshop,
+    }
+	
+/**fucking gun*/
+/** 枪械定价以清理僵尸总体效率为标准 不容易找到的枪应当再提高点 */
+	recipe Buy Weapon BaseballBat{
+        Money=100,
+        Result:BaseballBat,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Weapon M9{
+        Money=200,
+        Result:Pistol,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Weapon MSR700{
+        Money=600,
+        Result:VarmintRifle,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Weapon DoubleBarrelShotgun{
+        Money=400,
+        Result:DoubleBarrelShotgun,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Weapon M16{
+        Money=800,
+        Result:AssaultRifle,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+
+
+	recipe Buy Clip 9mmClip{
+        Money=100,
+        Result:9mmClip,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Clip 223Clip{
+        Money=100,
+        Result:223Clip,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Clip 556Clip{
+        Money=100,
+        Result:556Clip,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+
+	
+/**ammo*/
+/** 
+*子弹以每颗的价格计算，然后随便上下取个顺眼整数
+*
+*9mm	一盒30 * $2/颗 = 60 ≈ 60
+*.38	一盒30 * $2/颗 = 60 ≈ 60
+*.45	一盒30 * $3/颗 = 90 ≈ 90
+*.308	一盒40 * $4/颗 = 160 ≈ 160
+*.223	一盒40 * $4/颗 = 160 ≈ 160
+*.44	一盒12 * $5/颗 = 60 ≈ 60
+*5.56	一盒60 * $5/颗 = 300 ≈ 300
+*霰弹	一盒24 * $10/颗 = 240 ≈ 240
+*
+*/
+   recipe Buy Ammo Bullets9mmBox{
+        Money=60,
+        Result:Bullets9mmBox,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo Bullets45Box{
+        Money=90,
+        Result:Bullets45Box,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo Bullets44Box{
+        Money=60,
+        Result:Bullets44Box,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo Bullets38Box{
+        Money=60,
+        Result:Bullets38Box,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo 223Box{
+        Money=160,
+        Result:223Box,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo 308Box{
+        Money=160,
+        Result:308Box,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo 556Box{
+        Money=300,
+        Result:556Box,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+	recipe Buy Ammo ShotgunShellsBox{
+        Money=240,
+        Result:ShotgunShellsBox,
+        Time:20.0,
+        Category:rabbitweapon,
+    }
+
+/**clothes*/
+	recipe Buy clothes BunnySuitBlack{
+        Money=30,
+        Result:BunnySuitBlack,
+        Time:20.0,
+        Category:rabbitclothes,
+    }
+	recipe Buy clothes BunnySuitPink{
+        Money=30,
+        Result:BunnySuitPink,
+        Time:20.0,
+        Category:rabbitclothes,
+    }
+	recipe Buy clothes BunnyEarsBlack{
+        Money=10,
+        Result:Hat_BunnyEarsBlack,
+        Time:20.0,
+        Category:rabbitclothes,
+    }
+	recipe Buy clothes BunnyEarsWhite{
+        Money=10,
+        Result:Hat_BunnyEarsWhite,
+        Time:20.0,
+        Category:rabbitclothes,
+    }
+	recipe Buy clothes BunnyTail{
+        Money=5,
+        Result:BunnyTail,
+        Time:20.0,
+        Category:rabbitclothes,
+    }
+
+}

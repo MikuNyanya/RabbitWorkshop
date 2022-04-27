@@ -1,0 +1,13 @@
+module Base
+{
+    item Money
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.001,
+        Type	=	Normal,
+        DisplayName	=	Money,
+        Icon	=	Money,
+        WorldStaticModel = Money,
+    }
+}
+

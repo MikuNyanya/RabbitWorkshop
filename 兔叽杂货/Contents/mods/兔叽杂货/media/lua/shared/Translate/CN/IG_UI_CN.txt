@@ -1,5 +1,0 @@
-﻿IGUI_CN = {
-	IGUI_CraftCategory_rabbitshop = "兔叽杂货",
-	IGUI_CraftCategory_rabbitweapon = "兔叽军火",
-	IGUI_CraftCategory_rabbitclothes = "兔叽裁缝",
-}
