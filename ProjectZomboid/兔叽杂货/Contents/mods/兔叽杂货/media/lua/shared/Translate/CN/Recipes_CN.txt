@@ -3,6 +3,8 @@
 	Recipe_rabbit Use Credit Card		= "兔叽 使用信用卡",
 	Recipe_rabbit Sell Jewelry		= "卖掉金银首饰",
 
+	Recipe_Buy_Carrots		= "新鲜胡萝卜",
+
 	Recipe_Buy_Canned_Beans		= "购买罐装豆子",
 	Recipe_Buy_Canned_Bolognese 	= "购买罐装意大利肉酱面",
 	Recipe_Buy_Canned_Carrots	= "购买罐装胡萝卜",
@@ -65,6 +67,10 @@
 	Recipe_Buy Weapon DoubleBarrelShotgun		= "购买武器 双管霰弹枪",
 	Recipe_Buy Weapon M16		= "购买武器 M16突击步枪",
 	
+	Recipe_Buy Clip 9mmClip		= "购买弹匣 9mm弹匣",
+	Recipe_Buy Clip 223Clip		= "购买弹匣 .223弹匣",
+	Recipe_Buy Clip 556Clip		= "购买弹匣 5.56mm弹匣",
+		
 	Recipe_Buy clothes BunnySuitBlack		= "购买衣服 兔子装(黑)",
 	Recipe_Buy clothes BunnySuitPink		= "购买衣服 兔子装(粉)",
 	Recipe_Buy clothes BunnyEarsBlack		= "购买衣服 兔耳(黑)",
