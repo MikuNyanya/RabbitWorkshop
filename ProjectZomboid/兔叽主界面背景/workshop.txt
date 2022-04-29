@@ -1,0 +1,7 @@
+version=1
+id=
+title=兔叽主界面背景
+description=主界面背景替换
+description=\兔子万岁/
+tags=
+visibility=public
