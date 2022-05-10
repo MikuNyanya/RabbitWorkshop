@@ -1,0 +1,94 @@
+﻿Items_CN = {
+
+
+                DisplayName_DVA_Clothes = "DVA作战服",
+                DisplayName_DVA_Hair = "DVA假发",
+                DisplayName_DVA_Mask = "DVA面具",
+                DisplayName_DVA_Gloves = "DVA手套",
+                DisplayName_DVA_Shoes = "DVA鞋子",
+
+                DisplayName_Beast_Girl_Skin = "兽娘皮肤",
+                DisplayName_Wolf_Ears = "狼娘耳朵",
+                DisplayName_Wolf_Tail = "狼娘尾巴",
+
+                DisplayName_Spear_of_Longinus = "朗基努斯枪",
+                DisplayName_Asuka_Clothes = "明日香作战服",
+                DisplayName_Asuka_Shoes = "明日香鞋子",
+                DisplayName_Asuka_Mask = "明日香面具",
+
+                DisplayName_02_Clothes（red） = "02作战服（红）",
+                DisplayName_02_Clothes（white） = "02作战服（白）",
+                DisplayName_02_Shoes（red） = "02鞋子(红)",
+                DisplayName_02_Shoes（white） = "02鞋子(白)",
+                DisplayName_02_Synchrony_Device（red） = "02同步装置(红)",
+                DisplayName_02_Synchrony_Device（white） = "02同步装置(白)",
+                DisplayName_02_Hairpin = "02发卡",
+                DisplayName_02_Mask = "02面具",
+
+                DisplayName_Samus_Zero_Suit = "萨姆斯零式作战服",
+
+                DisplayName_Shino_Mask = "诗乃面具",
+                DisplayName_Shino_Shoes = "诗乃鞋子",
+                DisplayName_Shino_Knickers = "诗乃短裤",
+                DisplayName_Shino_Cartridge_Belt = "诗乃弹药袋",
+                DisplayName_Shino_Corselet = "诗乃胸甲",
+                DisplayName_Shino_Leg_Guard = "诗乃腿甲",
+                DisplayName_Shino_Coat = "诗乃外套",
+                DisplayName_Shino_Scarf = "诗乃围巾",
+                DisplayName_PGM_Hecate_II = "黑卡蒂II狙击枪",
+
+                DisplayName_Cat_Hoodie = "猫猫连帽衫",
+                DisplayName_Striped_Stockings = "条纹长袜",
+
+                DisplayName_I401_Mask = "伊401面具",
+                DisplayName_I401_Shoes = "伊401鞋子",
+                DisplayName_I401_Knickers = "伊401短裤",
+                DisplayName_I401_Sailor_Skirt = "伊401水手裙",
+                DisplayName_I401_Sailor_Suit = "伊401水手服",
+
+                DisplayName_UMP45_Mask = "UMP45面具",
+                DisplayName_HK416_Mask = "HK416面具",
+                DisplayName_Mordred_Mask = "莫德雷德面具",
+                DisplayName_2B_Mask = "2B面具",
+                DisplayName_Peritya_Mask = "佩里缇亚面具",
+                DisplayName_Sora_Mask = "空 面具",
+                DisplayName_Lenna_Mask = "莱娜面具",
+                DisplayName_Chocola_Mask = "巧克力 面具",
+                DisplayName_Long_Glove = "加长手套",
+                DisplayName_Stocking = "长筒袜",
+
+                DisplayName_Nemesis_garage_kit = "奈美西斯手办",
+                DisplayName_Nemesis_garage_kit__big = "奈美西斯手办（大）",
+                DisplayName_Asuka_garage_kit = "明日香手办",
+                DisplayName_Asuka_garage_kit__big = "明日香手办（大）",
+                DisplayName_red_02_garage_kit = "红色02手办",
+                DisplayName_red_02_garage_kit__big = "红色02手办（大）",
+                DisplayName_white_02_garage_kit = "白色02手办",
+                DisplayName_white_02_garage_kit__big = "白色02手办（大）",
+                DisplayName_Noelle_garage_kit = "诺艾尔手办",
+                DisplayName_Noelle_garage_kit__big = "诺艾尔手办（大）",
+                DisplayName_Rem_garage_kit = "蕾姆手办",
+                DisplayName_Rem_garage_kit__big = "蕾姆手办（大）",
+                DisplayName_Ram_garage_kit = "拉姆手办",
+                DisplayName_Ram_garage_kit__big = "拉姆手办（大）",
+                DisplayName_Alice_garage_kit = "爱丽丝手办",
+                DisplayName_Alice_garage_kit__big = "爱丽丝手办（大）",
+                DisplayName_Remilia_garage_kit = "蕾米莉亚手办",
+                DisplayName_Remilia_garage_kit__big = "蕾米莉亚手办（大）",
+                DisplayName_Chii_garage_kit = "小叽手办",
+                DisplayName_Chii_garage_kit__big = "小叽手办（大）",
+                DisplayName_Tokisaki_Kurumi_garage_kit = "时崎狂三手办",
+                DisplayName_Tokisaki_Kurumi_garage_kit__big = "时崎狂三手办（大）",
+                DisplayName_Bayonetta_garage_kit = "猎天使魔女手办",
+                DisplayName_Bayonetta_garage_kit__big = "猎天使魔女手办（大）",
+
+                DisplayName_Clementine_Character_Card = "克莱蒙特角色卡",
+                DisplayName_Raccoon_Girl_Character_Card = "浣熊娘角色卡",
+                DisplayName_UMP45_Character_Card = "UMP45角色卡",
+                DisplayName_Mordred_Character_Card = "莫德雷德角色卡",
+                DisplayName_HK416_Character_Card = "HK416角色卡",
+
+
+
+		
+}

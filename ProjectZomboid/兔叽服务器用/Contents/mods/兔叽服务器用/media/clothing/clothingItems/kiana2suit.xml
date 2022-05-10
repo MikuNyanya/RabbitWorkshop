@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\kiana2suit.FBX</m_FemaleModel>
+	<m_GUID>d29de8a3-63bd-4b77-8720-0a5d46282b59</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\kiana2\kiana2suit</textureChoices>
+</clothingItem>

@@ -1,0 +1,135 @@
+module trice_skin
+{
+                item kiana2mask
+                {
+                               Type = Clothing,
+                               DisplayName = Kiana (Void) mask,
+                               ClothingItem = kiana2mask,
+                               BodyLocation = kigurumi,
+                               Icon = kiana2mask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = 2kiana1_Ground,
+                }   
+
+                item kiana2hat
+                {
+                               Type = Clothing,
+                               DisplayName = Kiana (Void) Headgear,
+                               ClothingItem = kiana2hat,
+                               BodyLocation = Hat,
+                               Icon = kiana2hat,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = 2kiana2_Ground,
+                }   
+                
+                item kiana2shoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Kiana (Void) shoes,
+		ClothingItem 		= kiana2shoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= kiana2shoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = 2kiana3_ground,
+	}         
+        item kiana2socks
+	       {
+		Type = Clothing,
+		DisplayName = Kiana (Void) socks,
+		DisplayCategory = Clothing,
+		ClothingItem = kiana2socks,
+		BodyLocation = Socks,
+		Icon = kiana2socks,
+		BloodLocation = Shoes;LowerLegs,
+                Insulation = 0.55,
+                WindResistance = 0.65,
+                Weight = 0.1,
+                FabricType = Cotton,
+	 	WorldStaticModel = BoilerSuit_Ground,
+	         } 
+            item kiana2panties
+	       {
+		DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName =  Kiana (Void) underwear,
+		ClothingItem = kiana2panties,
+		BodyLocation = Underwear,
+		Icon = kiana2panties,
+		Weight = 0.2,
+		WorldStaticModel = BoilerSuit_Ground,
+	         }    
+         item kiana2suit
+    {
+        Type = Clothing,
+        DisplayName = Kiana (Void) Battlesuit,
+        ClothingItem = kiana2suit,
+        BodyLocation = Tshirt,
+        Icon	=	kiana2suit,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = 2kiana4_Ground,
+    }      
+    item kiana2gloves
+                {
+                Type         = Clothing,
+                DisplayName         = Kiana (Void) gloves,
+                ClothingItem         = kiana2gloves,
+                BodyLocation         = Hands,
+                BloodLocation         = Hands,
+                Icon         = kiana2gloves,
+                ScratchDefense         = 30,
+                BiteDefense         = 15,
+                Insulation         = 0.4,
+                WindResistance         = 0.8,
+                FabricType         = Leather,
+                Weight         = 0.1,
+                CombatSpeedModifier         = 1.2,
+                                WorldStaticModel = Gloves_Ground,
+                }   
+     item kiana2gear
+                {
+                                Type = Clothing,
+                                DisplayName = Kiana (Void) Wing and Cores,
+                                ClothingItem = kiana2gear,
+                                BodyLocation = Jacket,
+                                Icon = kiana2gear,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = 2kiana5_Ground,
+                }                                                        
+}

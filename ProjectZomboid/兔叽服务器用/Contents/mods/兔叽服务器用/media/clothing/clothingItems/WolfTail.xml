@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\WolfTail.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\WolfTail.FBX</m_FemaleModel>
+	<m_GUID>7b950166-cec3-3180-d886-c9560ef75abb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\BeastGirl\WolfEar</textureChoices>
+</clothingItem>

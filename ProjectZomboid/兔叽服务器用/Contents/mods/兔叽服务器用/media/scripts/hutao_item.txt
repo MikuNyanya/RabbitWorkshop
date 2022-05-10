@@ -1,0 +1,107 @@
+module trice_skin
+{
+                item hutaomask
+                {
+                               Type = Clothing,
+                               DisplayName = Hutao mask,
+                               ClothingItem = hutaomask,
+                               BodyLocation = kigurumi,
+                               Icon = hutaomask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = hutao_Ground,
+                }
+                item hutaodress
+                {
+                                Type = Clothing,
+                                DisplayName = Hutao dress,
+                                ClothingItem = hutaodress,
+                                BodyLocation = Jacket,
+                                Icon = hutaodress,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = hutao2_Ground,
+                }
+                item hutaoshorts
+               {
+                Type = Clothing,
+                DisplayName = Hutao shorts,
+                ClothingItem = hutaoshorts,
+                BodyLocation = Pants,
+                Icon = hutaoshorts,
+                BloodLocation = Trousers,
+                BiteDefense = 10,
+                ScratchDefense = 20,
+                Insulation = 0.3,
+                WindResistance = 0.1,
+                FabricType = Cotton,
+                WorldStaticModel = BoilerSuit_Ground,
+                }
+               item hutaohat
+                {
+                               Type = Clothing,
+                               DisplayName = Hutao hat,
+                               ClothingItem = hutaohat,
+                               BodyLocation = Hat,
+                               Icon = hutaohat,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = hutao4_Ground,
+                }
+                item hutaosocks
+	       {
+		Type = Clothing,
+		DisplayName = Hutao socks,
+		DisplayCategory = Clothing,
+		ClothingItem = hutaosocks,
+		BodyLocation = Socks,
+		Icon = hutaosocks,
+		BloodLocation = Shoes;LowerLegs,
+                Insulation = 0.55,
+                WindResistance = 0.65,
+                Weight = 0.1,
+                FabricType = Cotton,
+	 	WorldStaticModel = hutao5_Ground
+	         }
+               item hutaoshoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Hutao shoes,
+		ClothingItem 		= hutaoshoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= hutaoshoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = hutao6_ground,
+	}     
+}

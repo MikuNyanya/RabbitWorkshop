@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>2387fd83-92d7-40cd-a85b-81df5b917a44</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+        <m_BaseTextures>clothes\kokomi\kokomisocks</m_BaseTextures>
+</clothingItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\pyraclothes.FBX</m_FemaleModel>
+	<m_GUID>e2d59e3b-c145-4e06-b947-d120fdf21b71</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\pyra\pyraclothes</textureChoices>
+</clothingItem>

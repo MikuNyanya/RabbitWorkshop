@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\beidouclothes.FBX</m_FemaleModel>
+	<m_GUID>2452c0ef-5060-49c2-9a72-9ebfdd24d379</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\beidou\beidouclothes</textureChoices>
+</clothingItem>

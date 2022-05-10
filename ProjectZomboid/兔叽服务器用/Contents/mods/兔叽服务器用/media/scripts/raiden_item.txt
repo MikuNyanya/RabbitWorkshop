@@ -1,0 +1,101 @@
+module trice_skin
+{
+                item raidenmask
+                {
+                               Type = Clothing,
+                               DisplayName = Raiden mask,
+                               ClothingItem = raidenmask,
+                               BodyLocation = kigurumi,
+                               Icon = raidenmask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = raiden_Ground,
+                }
+                item raidenclothes
+                {
+                                Type = Clothing,
+                                DisplayName = Raiden clothes,
+                                ClothingItem = raidenclothes,
+                                BodyLocation = Jacket,
+                                Icon = raidenclothes,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = raiden1_Ground,
+                }
+                item raidensocks
+	       {
+		Type = Clothing,
+		DisplayName = Raiden socks,
+		DisplayCategory = Clothing,
+		ClothingItem = raidensocks,
+		BodyLocation = Socks,
+		Icon = raidensocks,
+		BloodLocation = Shoes;LowerLegs,
+                Insulation = 0.55,
+                WindResistance = 0.65,
+                Weight = 0.1,
+                FabricType = Cotton,
+	 	WorldStaticModel = BoilerSuit_Ground,
+	         }
+               item raidenpanties
+	       {
+		DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName =  Raiden panties,
+		ClothingItem = raidenpanties,
+		BodyLocation = Underwear,
+		Icon = raidenpanties,
+		Weight = 0.2,
+		WorldStaticModel = BoilerSuit_Ground,
+	         }
+               item raidenshoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Raiden shoes,
+		ClothingItem 		= raidenshoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= raidenshoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = raiden4_ground,
+	}
+        item raidengloves
+                {
+                Type         = Clothing,
+                DisplayName         = Raiden gloves,
+                ClothingItem         = raidengloves,
+                BodyLocation         = Hands,
+                BloodLocation         = Hands,
+                Icon         = raidengloves,
+                ScratchDefense         = 30,
+                BiteDefense         = 15,
+                Insulation         = 0.4,
+                WindResistance         = 0.8,
+                FabricType         = Leather,
+                Weight         = 0.1,
+                CombatSpeedModifier         = 1.2,
+                                WorldStaticModel = Gloves_Ground,
+       }      
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>b5bd06d2-a3bf-46ae-8af7-8963d5bdfdf3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+        <m_BaseTextures>clothes\yae\yaepanties</m_BaseTextures>
+</clothingItem>

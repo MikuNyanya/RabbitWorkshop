@@ -1,0 +1,54 @@
+module trice_skin
+{ 
+        item theguy1
+                {
+                                Type = Clothing,
+                                DisplayName = The Guy mask and jacket,
+                                ClothingItem = theguy1,
+                                BodyLocation = Jacket,
+                                Icon = theguy1,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 100,
+                                ScratchDefense              = 100,
+                                CanHaveHoles		= false,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                WorldStaticModel = theguy1_Ground,
+                }
+        item theguy2
+    {
+        Type = Clothing,
+        DisplayName = The Guy Pants,
+        ClothingItem = theguy2,
+        BodyLocation = Pants,
+        Icon = theguy2,
+        BloodLocation = Trousers,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.3,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = theguy2,
+    }
+       item theguy3
+      {
+		Type 		= Clothing,
+		DisplayName 		= The Guy boots,
+		ClothingItem 		= theguy3,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= theguy3,
+		StompPower 		= 5,
+		RunSpeedModifier 		= 2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = theguy3_ground,
+	}       
+}

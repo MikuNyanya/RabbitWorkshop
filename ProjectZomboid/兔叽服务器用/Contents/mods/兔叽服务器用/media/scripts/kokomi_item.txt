@@ -1,0 +1,101 @@
+module trice_skin
+{
+                item kokomimask
+                {
+                               Type = Clothing,
+                               DisplayName = Kokomi mask,
+                               ClothingItem = kokomimask,
+                               BodyLocation = kigurumi,
+                               Icon = kokomimask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = kokomi_Ground,
+                }   
+                item kokomisocks
+	       {
+		Type = Clothing,
+		DisplayName = Kokomi socks,
+		DisplayCategory = Clothing,
+		ClothingItem = kokomisocks,
+		BodyLocation = Socks,
+		Icon = kokomisocks,
+		BloodLocation = Shoes;LowerLegs,
+                Insulation = 0.55,
+                WindResistance = 0.65,
+                Weight = 0.1,
+                FabricType = Cotton,
+	 	WorldStaticModel = BoilerSuit_Ground,
+	         }  
+               item kokomiunderwear
+	       {
+		DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName =  Kokomi underwear,
+		ClothingItem = kokomiunderwear,
+		BodyLocation = Underwear,
+		Icon = kokomiunderwear,
+		Weight = 0.2,
+		WorldStaticModel = BoilerSuit_Ground,
+	         }   
+               item kokomigloves
+                {
+                Type         = Clothing,
+                DisplayName         = Kokomi gloves,
+                ClothingItem         = kokomigloves,
+                BodyLocation         = Hands,
+                BloodLocation         = Hands,
+                Icon         = kokomigloves,
+                ScratchDefense         = 30,
+                BiteDefense         = 15,
+                Insulation         = 0.4,
+                WindResistance         = 0.8,
+                FabricType         = Leather,
+                Weight         = 0.1,
+                CombatSpeedModifier         = 1.2,
+                                WorldStaticModel = Gloves_Ground,
+    }
+    item kokomishoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Kokomi shoes,
+		ClothingItem 		= kokomishoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= kokomishoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = kokomi3_ground,
+	}
+   item kokomiclothes
+                {
+                                Type = Clothing,
+                                DisplayName = Kokomi clothes,
+                                ClothingItem = kokomiclothes,
+                                BodyLocation = Jacket,
+                                Icon = kokomiclothes,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = kokomi4_Ground,
+                }      
+}

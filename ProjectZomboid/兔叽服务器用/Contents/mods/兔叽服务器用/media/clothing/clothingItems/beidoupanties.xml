@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>9c6ac855-6e52-475f-a82c-f1f513d925f1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+        <m_BaseTextures>clothes\beidou\beidoupanties</m_BaseTextures>
+</clothingItem>

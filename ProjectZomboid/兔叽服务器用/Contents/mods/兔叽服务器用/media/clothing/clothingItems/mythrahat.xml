@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\clothes\mythrahat.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\mythrahat.FBX</m_FemaleModel>
+	<m_GUID>83a5080d-5ee0-4bab-9077-24e69ea22aac</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohair</m_HatCategory>
+	<textureChoices>Clothes\mythra\mythramask</textureChoices>
+</clothingItem>

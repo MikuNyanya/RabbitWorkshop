@@ -1,0 +1,90 @@
+module trice_skin
+{
+                item jeanmask
+                {
+                               Type = Clothing,
+                               DisplayName = Jean mask,
+                               ClothingItem = jeanmask,
+                               BodyLocation = kigurumi,
+                               Icon = jeanmask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = jean_Ground,
+               }
+                item jeanboots
+	{
+		Type 		= Clothing,
+		DisplayName 		= Jean boots,
+		ClothingItem 		= jeanboots,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= jeanboots,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 120,
+		BiteDefense 		= 120,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = jean2_ground,
+	}
+        item jeanpants
+               {
+                Type = Clothing,
+                DisplayName = Jean leggings,
+                ClothingItem = jeanpants,
+                BodyLocation = Pants,
+                Icon = jeanpants,
+                BloodLocation = Trousers,
+                BiteDefense = 10,
+                ScratchDefense = 20,
+                Insulation = 0.3,
+                WindResistance = 0.1,
+                FabricType = Cotton,
+                WorldStaticModel = BoilerSuit_Ground,
+                }
+         item jeanclothes
+                {
+                                Type = Clothing,
+                                DisplayName = Jean clothes,
+                                ClothingItem = jeanclothes,
+                                BodyLocation = Jacket,
+                                Icon = jeanclothes,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = jean4_Ground,
+                }
+       item jeangloves
+                {
+                Type         = Clothing,
+                DisplayName         = Jean gloves,
+                ClothingItem         = jeangloves,
+                BodyLocation         = Hands,
+                BloodLocation         = Hands,
+                Icon         = jeangloves,
+                ScratchDefense         = 30,
+                BiteDefense         = 15,
+                Insulation         = 0.4,
+                WindResistance         = 0.8,
+                FabricType         = Leather,
+                Weight         = 0.1,
+                CombatSpeedModifier         = 1.2,
+                                WorldStaticModel = Gloves_Ground,
+    } 
+}

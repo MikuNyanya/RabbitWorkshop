@@ -1,0 +1,109 @@
+module Base
+{
+
+ model wolfgravestone
+                {
+                                mesh = weapons/wolfgravestone,
+                                texture = weapons/wolfgravestone,
+                }
+ model musou_isshin
+                {
+                                mesh = weapons/musou_isshin,
+                                texture = weapons/musou_isshin,
+                }
+ model primordialcutter
+                {
+                                mesh = weapons/primordialcutter,
+                                texture = weapons/primordialcutter,
+                }
+ model theguychains
+                {
+                                mesh = weapons/theguychains,
+                                texture = weapons/theguychains,
+                }
+  model staffhoma
+                {
+                                mesh = weapons/staffhoma,
+                                texture = weapons/staffhoma,
+                }
+  model skywardharp
+               {
+                                mesh = weapons/skywardharp,
+                                texture = weapons/skywardharp,
+                } 
+  model electrohammer
+               {
+                                mesh = weapons/electrohammer,
+                                texture = weapons/electrohammer,
+                } 
+  model fischlbow
+               {
+                                mesh = weapons/fischlbow,
+                                texture = weapons/fischlbow,
+                } 
+  model favoniussword
+               {
+                                mesh = weapons/favoniussword,
+                                texture = weapons/favoniussword,
+                } 
+  model luxsealord
+               {
+                                mesh = weapons/luxsealord,
+                                texture = weapons/luxsealord,
+                } 
+  model halberd
+               {
+                                mesh = weapons/halberd,
+                                texture = weapons/halberd,
+                } 
+  model favoniusgreat
+               {
+                                mesh = weapons/favoniusgreat,
+                                texture = weapons/favoniusgreat,
+                } 
+  model raidenpole
+               {
+                                mesh = weapons/raidenpole,
+                                texture = weapons/raidenpole,
+                } 
+  model lionsroar
+               {
+                                mesh = weapons/lionsroar,
+                                texture = weapons/lionsroar,
+                } 
+  model fatuirifle
+               {
+                                mesh = weapons/fatuirifle,
+                                texture = weapons/fatuirifle,
+                } 
+  model pyrasword
+               {
+                                mesh = weapons/pyrasword,
+                                texture = weapons/pyrasword,
+                } 
+  model mythrasword
+               {
+                                mesh = weapons/mythrasword,
+                                texture = weapons/mythrasword,
+                } 
+  model yelanbow
+               {
+                                mesh = weapons/yelanbow,
+                                texture = weapons/yelanbow,
+                } 
+  model favlance
+               {
+                                mesh = weapons/favlance,
+                                texture = weapons/favlance,
+                } 
+  model favbow
+               {
+                                mesh = weapons/favbow,
+                                texture = weapons/favbow,
+                } 
+  model kiana1wep
+               {
+                                mesh = weapons/kiana1wep,
+                                texture = weapons/kiana1wep,
+                } 
+}

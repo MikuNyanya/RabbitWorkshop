@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\clothes\kiana1mask.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\kiana1mask.FBX</m_FemaleModel>
+	<m_GUID>7e163d32-e850-4b61-8b4d-dc72cfa8ffcb</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohair</m_HatCategory>
+	<textureChoices>Clothes\kiana1\kiana1mask</textureChoices>
+</clothingItem>

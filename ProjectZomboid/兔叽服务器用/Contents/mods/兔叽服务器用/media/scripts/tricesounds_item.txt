@@ -1,0 +1,168 @@
+module trice_weapon
+{
+/*****BOW*****/
+
+	sound tricebowshooting
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricebow1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/tricebow2.ogg,
+
+        }
+		clip
+        {
+            file = media/sound/tricebow3.ogg,
+        }    
+     }
+     sound tricebowreload
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricebowreload1.ogg,
+            
+        }   
+    }
+
+/*****SWORD*****/
+
+    sound triceswordattack
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricesword1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/tricesword2.ogg,
+
+        }		
+        clip
+        {
+            file = media/sound/tricesword3.ogg,
+
+        }  
+     }
+
+     sound tricesworddoor
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricesworddoor.ogg,
+            
+        }
+    }
+
+/*****CLAYMORE*****/
+
+ sound triceclayattack
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/triceclay1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/triceclay2.ogg,
+
+        }		
+        clip
+        {
+            file = media/sound/triceclay3.ogg,
+
+        } 
+        clip
+        {
+            file = media/sound/triceclay4.ogg,
+
+        }   
+     }
+
+     sound triceclaydoor
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/triceclaydoor.ogg,
+            
+        }
+    }
+
+/*****POLEARM*****/
+
+ sound tricepoleattack
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricepole1.ogg,
+            
+        }
+        clip
+        {
+            file = media/sound/tricepole2.ogg,
+
+        }		
+        clip
+        {
+            file = media/sound/tricepole3.ogg,
+
+        } 
+     }
+
+     sound tricepoledoor
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricepoledoor.ogg,
+            
+        }
+    }
+/*****WEAK MELEE HIT*****/
+    sound tricemeleehit
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricemeleehit1.ogg,
+            
+        }      
+    }
+
+/*****HEAVY MELEE HIT*****/
+    sound tricemeleehitheavy
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/tricemeleehitheavy1.ogg,
+            
+        }        
+    }
+
+/*****FATUI RIFLE*****/
+
+ sound tricefatuishoot
+    {
+        category = Object,
+        clip
+        {
+            file = media/sound/fatuishoot1.ogg,
+            
+        }		       
+     }
+
+}
+

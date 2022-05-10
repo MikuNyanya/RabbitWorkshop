@@ -1,0 +1,163 @@
+module Base
+{
+                item 2B Mask
+                {
+                               Type = Clothing,
+                               DisplayName = 2B Mask,
+                               ClothingItem = 2BMask,
+                               BodyLocation = kigurumi,
+                               Icon = 2BMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.6,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.55,
+		WindResistance 		= 0.6,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = 2BMask_Ground,
+                }
+                model 2BMask_Ground
+                {
+                                mesh = WorldItems/Clothing/2BMask_Ground,
+                                texture = Clothes\MaskOnly\2B,
+                                scale = 0.1,
+                }
+	recipe NieR***Buy 2B Mask
+	{
+		Money=65,
+		Result 		: 2B Mask,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+                item Peritya Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Peritya Mask,
+                               ClothingItem = PerityaMask,
+                               BodyLocation = kigurumi,
+                               Icon = PerityaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.5,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.7,
+		WindResistance 		= 0.75,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = PerityaMask_Ground,
+                }
+                model PerityaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/PerityaMask_Ground,
+                                texture = Clothes\MaskOnly\Peritya,
+                                scale = 0.1,
+                }
+	recipe GF2***Buy Peritya Mask
+	{
+		Money=65,
+		Result 		: Peritya Mask,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+                item Lenna Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Lenna Mask,
+                               ClothingItem = LennaMask,
+                               BodyLocation = kigurumi,
+                               Icon = LennaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.55,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = LennaMask_Ground,
+                }
+                model LennaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/LennaMask_Ground,
+                                texture = Clothes\MaskOnly\Lenna,
+                                scale = 0.1,
+                }
+	recipe GF2***Buy Lenna Mask
+	{
+		Money=65,
+		Result 		: Lenna Mask,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+                item Sora Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Sora Mask,
+                               ClothingItem = SoraMask,
+                               BodyLocation = kigurumi,
+                               Icon = SoraMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.55,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 35,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = SoraMask_Ground,
+                }
+                model SoraMask_Ground
+                {
+                                mesh = WorldItems/Clothing/SoraMask_Ground,
+                                texture = Clothes\MaskOnly\Sora,
+                                scale = 0.1,
+                }
+	recipe Arknights***Buy Sora Mask
+	{
+		Money=65,
+		Result 		: Sora Mask,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+                item Chocola Mask
+                {
+                               Type = Clothing,
+                               DisplayName = Chocola Mask,
+                               ClothingItem = ChocolaMask,
+                               BodyLocation = kigurumi,
+                               Icon = ChocolaMask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.50,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 30,
+		Insulation 		= 0.5,
+		WindResistance 		= 0.65,
+		WaterResistance 		= 0.5,
+		Weight 		= 1,
+                               WorldStaticModel = ChocolaMask_Ground,
+                }
+                model ChocolaMask_Ground
+                {
+                                mesh = WorldItems/Clothing/ChocolaMask_Ground,
+                                texture = Clothes\MaskOnly\Chocola,
+                                scale = 0.1,
+                }
+	recipe NEKOPARA***Buy Chocola Mask
+	{
+		Money=65,
+		Result 		: Chocola Mask,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+}

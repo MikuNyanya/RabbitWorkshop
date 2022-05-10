@@ -1,0 +1,229 @@
+module trice_items
+ {
+
+  /*****ITEMS*****/
+
+    item resin1
+    {
+        Weight	=	0.3,
+        Type	=	Drainable,
+        UseDelta	=	0.1,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Original Resin,
+        Icon	=	resin1,
+        Tooltip = Tooltip_resin1,
+    }
+
+    item ptrans
+    {
+        Weight	=	0.3,
+        Type	=	Drainable,
+        UseDelta	=	0.2,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Parametric Transformer,
+        Icon	=	ptrans,
+        Tooltip = Tooltip_ptrans,
+    }
+
+     item NRE
+    {
+                WeightReduction	= 80,
+		Weight	        = 0.5,
+		Type	        = Container,
+		Capacity	= 30,
+		DisplayName	= NRE,
+		Icon	        = NREbackpack,
+		CanBeEquipped	= Back,
+		OpenSound	= PZ_OpenBag,
+		CloseSound	= PZ_CloseBag,
+		PutInSound	= PZ_PutInBag,
+    }
+
+  /*****STARTER WEAPON CHEST TRAIT ITEMS*****/
+
+
+    item startwepchest
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Starter  Weapon chest,
+		Icon			= startwepchest,
+        }	
+
+    recipe Open Starter Weapon chest
+      {	
+        startwepchest,		
+        Result:favoniussword,	
+        Time:50.0,	
+       } 
+    recipe Open Starter Weapon chest
+      {	
+        startwepchest,		
+        Result:favoniusgreat,	
+        Time:50.0,	
+       } 
+    recipe Open Starter Weapon chest
+      {	
+        startwepchest,		
+        Result:favlance,	
+        Time:50.0,	
+       } 
+    recipe Open Starter Weapon chest
+      {	
+        startwepchest,		
+        Result:favbow,	
+        OnCreate:recipe_openchest_starterwep,
+        Time:50.0,	
+       } 
+
+  /*****AMMO BOW*****/
+
+   item tricearrow
+	{
+		Count		=	60,
+		DisplayName	=	Bow arrow,
+		Icon		=	tricearrow,
+        	Type        	=    	Normal,
+        	DisplayCategory =    	Ammo,
+		Weight		=	0.01,
+	}
+    
+    item tricepackedarrow
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Packed Bow arrows,
+		Icon			= tricepackedarrow,
+        }	
+
+    recipe Unpack Packed Bow arrows
+      {	
+        tricepackedarrow,		
+        Result:tricearrow=2,	
+        Time:50.0,	
+       } 
+    recipe pack Packed Bow arrows
+      {	
+        tricearrow=120,		
+        Result:tricepackedarrow,	
+        Time:50.0,	
+       } 
+
+       item tricebowmag
+       {
+        CanStack    =   FALSE,
+        Weight  =   0.5,
+        Type    =   Normal,
+        DisplayName =   Quiver,
+        Icon    =   tricebowmag,
+        MaxAmmo = 30,
+        AmmoType = trice_items.tricearrow,
+        StaticModel = GunMagazine,
+	DisplayCategory	= Ammo,
+        GunType = trice_weapon.skywardharp,     
+        }
+
+   
+  /*****AMMO GUN*****/
+     item fatuiammo
+
+	{
+		Count		=	30,
+		DisplayName	=	Fatui Rifle Ammo,
+		Icon		=	fatuiammo,
+        	Type        	=    	Normal,
+        	DisplayCategory =    	Ammo,
+		Weight		=	0.02,
+	}
+    
+     item fatuimag
+       {
+        CanStack    =   FALSE,
+        Weight  =   0.5,
+        Type    =   Normal,
+        DisplayName =   Fatui Rifle Magazine,
+        Icon    =   fatuimag,
+        MaxAmmo = 60,
+        AmmoType = trice_items.fatuiammo,
+        StaticModel = GunMagazine,
+		DisplayCategory	= Ammo,
+        GunType = trice_weapon.fatuirifle,     
+       }
+
+   
+  /*****TRANSMUTATE*****/
+
+  recipe Transmutate Skin
+	{
+                ptrans,
+		pyraclothes,
+                keep ptrans,
+		Result 		: pyraswimsuit,
+		Time 		: 50,
+	}
+
+  recipe Transmutate Skin
+	{
+                ptrans,
+		pyraswimsuit,
+                keep ptrans,
+		Result 		: pyraclothes,
+		Time 		: 50,
+	} 
+
+  recipe Transmutate Skin
+	{
+                ptrans,
+		mythraclothes,
+                keep ptrans,
+		Result 		: mythraswimsuit,
+		Time 		: 50,
+	}
+
+  recipe Transmutate Skin
+	{
+                ptrans,
+		mythraswimsuit,
+                keep ptrans,
+		Result 		: mythraclothes,
+		Time 		: 50,
+	}           
+
+  /*****FIXING*****/
+
+    fixing Fix Weapon
+	{
+	   Require : wolfgravestone;musou_isshin;primordialcutter;theguychains;staffhoma;skywardharp;electrohammer;fischlbow;favoniussword;luxsealord;halberd;favoniusgreat;raidenpole;lionsroar;fatuirifle;pyrasword;mythrasword,
+	   Fixer : resin1=1,
+	   
+	}
+
+    fixing Fix Clothes
+	{
+	  Require : beidoumask;beidouhat;beidousocks;beidoushoes;beidoupanties;beidouclothes;beidougloves;
+                    eulamask;eulasocks;eulashorts;eulaclothes;eulashoes;eulagloves;
+                    fischlmask;fischlsocks;fischlunderwear;fischldress;fischlgloves;fischlboots;
+                    ganyumask;ganyubodysuit;ganyuclothes;ganyugloves;ganyushoes;
+                    hutaomask;hutaodress;hutaoshorts;hutaohat;hutaosocks;hutaoshoes;
+                    jeanmask;jeanboots;jeanpants;jeanclothes;jeangloves;
+                    keqingmask;keqingpants;keqingclothes;keqinggloves;keqingshoes;
+                    kokomimask;kokomisocks;kokomiunderwear;kokomigloves;kokomishoes;kokomiclothes;
+                    monamask;monabodysuit;monadress;monahat;monashoes;monagloves;
+                    noellemask;noellehat;noellepants;noelleboots;noelleclothes;noellegloves;
+                    raidenmask;raidenclothes;raidensocks;raidenpanties;raidenshoes;raidengloves;
+                    rosariamask;rosariahat;rosariafish;rosariaboots;rosariaclothes;rosariagloves;
+                    shenhemask;shenhebodysuit;shenheclothes;shenhegloves;shenheshoes;
+                    yaemask;yaeheadgear;yaeclothes;yaeshoes;yaepanties;
+                    theguy1;theguy2;theguy3;
+                    pyramask;pyraclothes;pyrapanties;pyragloves;pyrashorts;pyrahat;pyrashoes;pyraswimsuit;
+                    mythramask;mythraclothes;mythrapants;mythragloves;mythrahat;mythrashoes;mythraswimsuit;
+                    yelanmask;yelanclothes;yelanclothes2;yelanpants;yelanshoes;yelangloves;
+                    sigmamask;sigmaclothes;sigmaclothes2;sigmapanties;sigmashoes;sigmagloves;
+                    ayakamask;ayakaclothes;ayakagloves;ayakashoes;ayakasocks;ayakapanties;
+                    kiana1mask;kiana1suit;kiana1gloves;kiana1shoes;kiana1cape;kiana1socks;
+                    mei1mask;mei1suit;mei1gloves;mei1panties;mei1socks;mei1shoes;mei1gear;
+                    kiana2mask;kiana2suit;kiana2shoes;kiana2gloves;kiana2panties;kiana2gear;kiana2socks;kiana2hat,
+	   Fixer : resin1=1,
+	   
+	}    
+}

@@ -1,0 +1,48 @@
+module Base
+{
+	item Stocking
+	{
+		Type = Clothing,
+		DisplayName = Stocking,
+		ClothingItem = Stocking,
+		BodyLocation = UnderwearExtra1,
+		Icon = Stocking,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 5,
+                                ScratchDefense              = 8,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+                                FabricType                      = Cotton,
+		Weight = 0.2,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+                recipe Other***Buy Stocking
+	{
+		Money=5,
+		Result 		: Stocking,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+	item Long Glove
+	{
+	                DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Long Glove,
+		ClothingItem = LongGlove,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = LongGlove,
+		Weight = 0.1,
+                                Insulation = 0.5,
+                                WindResistance = 0.5,
+                                FabricType = Cotton,
+                                WorldStaticModel = GlovesLong_Ground,
+                }
+                recipe Other***Buy Long Glove
+	{
+		Money=5,
+		Result 		: Long Glove,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+}

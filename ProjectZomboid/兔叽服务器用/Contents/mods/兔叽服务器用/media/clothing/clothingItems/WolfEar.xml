@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\clothes\WolfEar.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\WolfEar.FBX</m_FemaleModel>
+	<m_GUID>e70f3948-f3ea-85f3-8cb7-731eb53b2e7e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory></m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\BeastGirl\WolfEar</textureChoices>
+</clothingItem>

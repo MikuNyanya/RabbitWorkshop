@@ -1,0 +1,154 @@
+module trice_skin
+{
+                item pyramask
+                {
+                               Type = Clothing,
+                               DisplayName = Pyra mask,
+                               ClothingItem = pyramask,
+                               BodyLocation = kigurumi,
+                               Icon = pyramask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = pyra_Ground,
+                }
+                item pyrahat
+                {
+                               Type = Clothing,
+                               DisplayName = Pyra Crown,
+                               ClothingItem = pyrahat,
+                               BodyLocation = Hat,
+                               Icon = pyrahat,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = pyra2_Ground,
+                }  
+                item pyrasocks
+	       {
+		Type = Clothing,
+		DisplayName = Pyra socks,
+		DisplayCategory = Clothing,
+		ClothingItem = pyrasocks,
+		BodyLocation = Socks,
+		Icon = pyrasocks,
+		BloodLocation = Shoes;LowerLegs,
+                Insulation = 0.55,
+                WindResistance = 0.65,
+                Weight = 0.1,
+                FabricType = Cotton,
+	 	WorldStaticModel = BoilerSuit_Ground,
+	         }   
+               item pyrashoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Pyra shoes and leg gear,
+		ClothingItem 		= pyrashoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= pyrashoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = pyra3_ground,
+	}         
+        item pyrashorts
+               {
+                Type = Clothing,
+                DisplayName = Pyra shorts,
+                ClothingItem = pyrashorts,
+                BodyLocation = Pants,
+                Icon = pyrashorts,
+                BloodLocation = Trousers,
+                BiteDefense = 10,
+                ScratchDefense = 20,
+                Insulation = 0.3,
+                WindResistance = 0.1,
+                FabricType = Cotton,
+                WorldStaticModel = pyra4_Ground,
+                } 
+
+                item pyrapanties
+	       {
+		DisplayCategory = Clothing,		
+		Type = Clothing,
+		DisplayName =  Pyra underwear,
+		ClothingItem = pyrapanties,
+		BodyLocation = Underwear,
+		Icon = pyrapanties,
+		Weight = 0.2,
+		WorldStaticModel = BoilerSuit_Ground,
+	         }   
+
+           item pyraclothes
+                {
+                                Type = Clothing,
+                                DisplayName = Pyra clothes,
+                                ClothingItem = pyraclothes,
+                                BodyLocation = Jacket,
+                                Icon = pyraclothes,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = pyra5_Ground,
+                }    
+            item pyragloves
+                {
+                Type         = Clothing,
+                DisplayName         = Pyra gloves,
+                ClothingItem         = pyragloves,
+                BodyLocation         = Hands,
+                BloodLocation         = Hands,
+                Icon         = pyragloves,
+                ScratchDefense         = 30,
+                BiteDefense         = 15,
+                Insulation         = 0.4,
+                WindResistance         = 0.8,
+                FabricType         = Leather,
+                Weight         = 0.1,
+                CombatSpeedModifier         = 1.2,
+                                WorldStaticModel = Gloves_Ground,
+                }    
+            item pyraswimsuit
+                {
+                                Type = Clothing,
+                                DisplayName = Pyra Swimsuit,
+                                ClothingItem = pyraswimsuit,
+                                BodyLocation = Jacket,
+                                Icon = pyraswimsuit,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = pyra6_Ground,
+                }    
+}

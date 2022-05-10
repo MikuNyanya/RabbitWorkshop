@@ -1,0 +1,105 @@
+module trice_skin
+{
+                item eulamask
+                {
+                               Type = Clothing,
+                               DisplayName = Eula mask,
+                               ClothingItem = eulamask,
+                               BodyLocation = kigurumi,
+                               Icon = eulamask,
+		CanHaveHoles 		= false,
+		BloodLocation 		= Head;Neck,
+		NeckProtectionModifier 		= 0.8,
+		ChanceToFall 		= 0,
+		BiteDefense 		= 30,
+		ScratchDefense 		= 35,
+		Insulation 		= 0.4,
+		WindResistance 		= 0.8,
+		WaterResistance 		= 0.4,
+		Weight 		= 1,
+                               WorldStaticModel = eula_Ground,
+                }
+                 item eulasocks
+	       {
+		Type = Clothing,
+		DisplayName = Eula socks,
+		DisplayCategory = Clothing,
+		ClothingItem = eulasocks,
+		BodyLocation = Socks,
+		Icon = eulasocks,
+		BloodLocation = Shoes;LowerLegs,
+                Insulation = 0.55,
+                WindResistance = 0.65,
+                Weight = 0.1,
+                FabricType = Cotton,
+	 	WorldStaticModel = BoilerSuit_Ground,
+	         }
+               item eulashorts
+               {
+                Type = Clothing,
+                DisplayName = Eula shorts,
+                ClothingItem = eulashorts,
+                BodyLocation = Pants,
+                Icon = eulashorts,
+                BloodLocation = Trousers,
+                BiteDefense = 10,
+                ScratchDefense = 20,
+                Insulation = 0.3,
+                WindResistance = 0.1,
+                FabricType = Cotton,
+                WorldStaticModel = BoilerSuit_Ground,
+                }
+               item eulaclothes
+                {
+                                Type = Clothing,
+                                DisplayName = Eula clothes,
+                                ClothingItem = eulaclothes,
+                                BodyLocation = Jacket,
+                                Icon = eulaclothes,
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                WorldStaticModel = eula4_Ground,
+                } 
+              item eulashoes
+	{
+		Type 		= Clothing,
+		DisplayName 		= Eula shoes,
+		ClothingItem 		= eulashoes,
+		BodyLocation 		= Shoes,
+		BloodLocation 		= Shoes,
+		Icon 		= eulashoes,
+		StompPower 		= 2.5,
+		RunSpeedModifier 		= 1.2,
+		RemoveOnBroken 		= false,
+		ScratchDefense 		= 100,
+		BiteDefense 		= 100,
+		Insulation 		= 0.6,
+		WindResistance 		= 1.0,
+		WaterResistance 		= 1.0,
+		Weight 		= 1,
+                                WorldStaticModel = eula5_ground,
+	} 
+        item eulagloves
+                {
+                Type         = Clothing,
+                DisplayName         = Eula gloves,
+                ClothingItem         = eulagloves,
+                BodyLocation         = Hands,
+                BloodLocation         = Hands,
+                Icon         = eulagloves,
+                ScratchDefense         = 30,
+                BiteDefense         = 15,
+                Insulation         = 0.4,
+                WindResistance         = 0.8,
+                FabricType         = Leather,
+                Weight         = 0.1,
+                CombatSpeedModifier         = 1.2,
+                                WorldStaticModel = Gloves_Ground,
+                }   
+}

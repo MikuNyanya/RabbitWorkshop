@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\yaeshoes.FBX</m_FemaleModel>
+	<m_GUID>c6361a37-def0-4510-9249-7e9d24915d78</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+        <textureChoices>Clothes\yae\yaeshoes</textureChoices>
+</clothingItem>

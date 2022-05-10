@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_trait_trice_starterweapon= "Starter  Weapon Chest",
+    UI_trait_trice_starterweapon_desc= "Start with a chest wich you can open and choose one weapon of the Favonius weapon set",    
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\02shoes.FBX</m_FemaleModel>
+	<m_GUID>42eb6c49-f69f-402a-0020-945ad7dacba0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>Clothes\02\02shoes</textureChoices>
+</clothingItem>

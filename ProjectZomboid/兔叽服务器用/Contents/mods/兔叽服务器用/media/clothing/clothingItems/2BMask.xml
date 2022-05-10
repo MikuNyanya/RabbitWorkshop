@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\clothes\2BMask.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\2BMask.FBX</m_FemaleModel>
+	<m_GUID>b8b246ef-313f-96f2-57b9-323a4884384c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohair</m_HatCategory>
+	<textureChoices>Clothes\MaskOnly\2B</textureChoices>
+</clothingItem>

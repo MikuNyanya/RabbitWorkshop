@@ -1,0 +1,596 @@
+module trice_box
+{	
+ /*****THEGUY*****/
+
+    item theguybox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= The Guy Set box,
+		Icon			= theguybox,
+        }	
+
+    recipe Open The Guy set box
+      {	
+        theguybox,		
+        Result:theguy1,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_theguy,
+       } 
+
+    recipe Buy Box: The Guy skin set
+	{
+		Money=150,
+		Result 		: theguybox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****RAIDEN*****/
+
+    item raidenbox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Raiden Shogun Set box,
+		Icon			= raidenbox,
+        }	
+
+    recipe Open Raiden Shogun set box
+      {	
+        raidenbox,		
+        Result:raidenmask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_raiden,
+       }
+
+     recipe Buy Box: Raiden Shogun skin set
+	{
+		Money=100,
+		Result 		: raidenbox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+    
+    /*****MONA*****/
+
+    item monabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Mona Set box,
+		Icon			= monabox,
+        }	
+
+    recipe Open Mona set box
+      {	
+        monabox,		
+        Result:monamask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_mona,
+       }
+
+      recipe Buy Box: Mona skin set
+	{
+		Money=100,
+		Result 		: monabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****HUTAO*****/
+
+    item hutaobox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Hutao Set box,
+		Icon			= hutaobox,
+        }	
+
+    recipe Open Hutao set box
+      {	
+        hutaobox,		
+        Result:hutaomask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_hutao,
+       }
+
+    recipe Buy Box: Hutao skin set
+	{
+		Money=100,
+		Result 		: hutaobox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****SHENHE*****/
+
+    item shenhebox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Shenhe Set box,
+		Icon			= shenhebox,
+        }	
+
+    recipe Open Shenhe set box
+      {	
+        shenhebox,		
+        Result:shenhemask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_shenhe,
+       }
+ 
+    recipe Buy Box: Shenhe skin set
+	{
+		Money=100,
+		Result 		: shenhebox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****JEAN*****/
+
+    item jeanbox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Jean Set box,
+		Icon			= jeanbox,
+        }	
+
+    recipe Open Jean set box
+      {	
+        jeanbox,		
+        Result:jeanmask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_jean,
+       }
+
+    recipe Buy Box: Jean skin set
+	{
+		Money=100,
+		Result 		: jeanbox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****ROSARIA*****/
+
+    item rosariabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Rosaria Set box,
+		Icon			= rosariabox,
+        }	
+
+    recipe Open Rosaria set box
+      {	
+        rosariabox,		
+        Result:rosariamask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_rosaria,
+       }
+
+    recipe Buy Box: Rosaria skin set
+	{
+		Money=100,
+		Result 		: rosariabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****GANYU*****/
+
+    item ganyubox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Ganyu Set box,
+		Icon			= ganyubox,
+        }	
+
+    recipe Open Ganyu set box
+      {	
+        ganyubox,		
+        Result:ganyumask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_ganyu,
+       }
+
+    recipe Buy Box: Ganyu skin set
+	{
+		Money=100,
+		Result 		: ganyubox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****KEQING*****/
+
+    item keqingbox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Keqing Set box,
+		Icon			= keqingbox,
+        }	
+
+    recipe Open Keqing set box
+      {	
+        keqingbox,		
+        Result:keqingmask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_keqing,
+       } 
+
+    recipe Buy Box: Keqing skin set
+	{
+		Money=100,
+		Result 		: keqingbox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****YAE*****/
+
+    item yaebox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Yae Miko Set box,
+		Icon			= yaebox,
+        }	
+
+    recipe Open Yae Miko set box
+      {	
+        yaebox,		
+        Result:yaemask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_yae,
+       } 
+
+    recipe Buy Box: Yae Miko skin set
+	{
+		Money=100,
+		Result 		: yaebox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****KOKOMI*****/
+
+    item kokomibox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Kokomi Set box,
+		Icon			= kokomibox,
+        }	
+
+    recipe Open Kokomi set box
+      {	
+        kokomibox,		
+        Result:kokomimask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_kokomi,
+       } 
+
+    recipe Buy Box: Kokomi skin set
+	{
+		Money=100,
+		Result 		: kokomibox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+   /*****EULA*****/
+
+    item eulabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Eula Set box,
+		Icon			= eulabox,
+        }	
+
+    recipe Open Eula set box
+      {	
+        eulabox,		
+        Result:eulamask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_eula,
+       } 
+
+    recipe Buy Box: Eula skin set
+	{
+		Money=100,
+		Result 		: eulabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+   /*****FISCHL*****/
+
+    item fischlbox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Fischl Set box,
+		Icon			= fischlbox,
+        }	
+
+    recipe Open Fischl set box
+      {	
+        fischlbox,		
+        Result:fischlmask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_fischl,
+       } 
+
+    recipe Buy Box: Fischl skin set
+	{
+		Money=100,
+		Result 		: fischlbox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+    /*****NOELLE*****/
+
+    item noellebox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Noelle Set box,
+		Icon			= noellebox,
+        }	
+
+    recipe Open Noelle set box
+      {	
+        noellebox,		
+        Result:noellemask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_noelle,
+       } 
+
+    recipe Buy Box: Noelle skin set
+	{
+		Money=100,
+		Result 		: noellebox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+        /*****BEIDOU*****/
+
+    item beidoubox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Beidou Set box,
+		Icon			= beidoubox,
+        }	
+
+    recipe Open Beidou set box
+      {	
+        beidoubox,		
+        Result:beidoumask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_beidou,
+       } 
+
+    recipe Buy Box: Beidou skin set
+	{
+		Money=100,
+		Result 		: beidoubox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****PYRA*****/
+
+    item pyrabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Pyra Set box,
+		Icon			= pyrabox,
+        }	
+
+    recipe Open Pyra set box
+      {	
+        pyrabox,		
+        Result:pyramask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_pyra,
+       } 
+
+    recipe Buy Box: Pyra skin set
+	{
+		Money=100,
+		Result 		: pyrabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+   
+    /*****MYTHRA*****/
+
+    item mythrabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Mythra Set box,
+		Icon			= mythrabox,
+        }	
+
+    recipe Open Mythra set box
+      {	
+        mythrabox,		
+        Result:mythramask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_mythra,
+       } 
+
+    recipe Buy Box: Mythra skin set
+	{
+		Money=100,
+		Result 		: mythrabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+    
+    /*****YELAN*****/
+
+    item yelanbox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Yelan Set box,
+		Icon			= yelanbox,
+        }	
+
+    recipe Open Yelan set box
+      {	
+        yelanbox,		
+        Result:yelanmask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_yelan,
+       } 
+
+    recipe Buy Box: Yelan skin set
+	{
+		Money=100,
+		Result 		: yelanbox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+ 
+    /*****SIGMA*****/
+
+    item sigmabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= La Signora Set box,
+		Icon			= sigmabox,
+        }	
+
+    recipe Open La Signora set box
+      {	
+        sigmabox,		
+        Result:sigmamask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_sigma,
+       } 
+
+    recipe Buy Box: La Signora skin set
+	{
+		Money=100,
+		Result 		: sigmabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+    /*****AYAKA*****/
+
+    item ayakabox
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Ayaka Set box,
+		Icon			= ayakabox,
+        }	
+
+    recipe Open Ayaka set box
+      {	
+        ayakabox,		
+        Result:ayakamask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_ayaka,
+       } 
+
+    recipe Buy Box: Ayaka skin set
+	{
+		Money=100,
+		Result 		: ayakabox,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+
+    /*****KIANA1*****/
+
+    item kiana1box
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Kiana (Flamescion) Set box,
+		Icon			= kiana1box,
+        }	
+
+    recipe Open Kiana (Flamescion) set box
+      {	
+        kiana1box,		
+        Result:kiana1mask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_kiana1,
+       } 
+
+    recipe Buy Box: Kiana (Flamescion) skin set
+	{
+		Money=100,
+		Result 		: kiana1box,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+    /*****MEI1*****/
+
+    item mei1box
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Mei (Thunder) Set box,
+		Icon			= mei1box,
+        }	
+
+    recipe Open Mei (Thunder) set box
+      {	
+        mei1box,		
+        Result:mei1mask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_mei1,
+       } 
+
+    recipe Buy Box: Mei (Thunder) skin set
+	{
+		Money=100,
+		Result 		: mei1box,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+    /*****KIANA2*****/
+
+    item kiana2box
+        {
+		Weight			= 0.1,
+		Type			= Normal,
+		DisplayName		= Kiana (Void) Set box,
+		Icon			= kiana2box,
+        }	
+
+    recipe Open Kiana (Void) set box
+      {	
+        kiana2box,		
+        Result:kiana2mask,	
+        Time:50.0,	
+        OnCreate:recipe_openbox_kiana2,
+       } 
+
+    recipe Buy Box: Kiana (Void) skin set
+	{
+		Money=100,
+		Result 		: kiana2box,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+}

@@ -1,0 +1,85 @@
+module Base
+{
+	item Cat Hoodie
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Cat Hoodie,
+		ClothingItem 		= CatHoodie,
+		BodyLocation = JacketHat,
+		Icon 		= CatHoodie,
+		BloodLocation 		= Jacket;FullHelmet,
+                                NeckProtectionModifier = 0.5,
+                                RunSpeedModifier = 0.95,
+                                CombatSpeedModifier = 0.96,
+                                ClothingItemExtra = Cat HoodieDOWN,
+                                ClothingItemExtraOption = DownHoodie,
+                                clothingExtraSubmenu = UpHoodie,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.80,
+		WindResistance 		= 0.95,
+                                FabricType                      = Cotton,
+		Weight 		= 2,
+                                WorldStaticModel = CatHoodie_Ground,
+	}
+	item Cat HoodieDOWN
+	{
+                                DisplayCategory = Clothing,
+		Type 		= Clothing,
+		DisplayName 		= Cat Hoodie,
+		ClothingItem 		= CatHoodie2,
+		BodyLocation = Jacket,
+		Icon 		= CatHoodie,
+		BloodLocation 		= Jacket,
+                                NeckProtectionModifier = 0.7,
+                                RunSpeedModifier = 0.95,
+                                CombatSpeedModifier = 1.02,
+                                ClothingItemExtra = Cat Hoodie,
+                                ClothingItemExtraOption = UpHoodie,
+                                clothingExtraSubmenu = DownHoodie,
+		ScratchDefense 		= 20,
+		BiteDefense 		= 10,
+		Insulation 		= 0.70,
+		WindResistance 		= 0.75,
+                                FabricType                      = Cotton,
+		Weight 		= 2,
+                                WorldStaticModel = CatHoodie_Ground,
+	}
+                model CatHoodie_Ground
+                {
+                                mesh = WorldItems/Clothing/CatHoodie_ground,
+                                texture = Clothes\CAT\CatHoodie,
+                                scale = 0.1,
+                }
+                recipe CAT***Buy Cat Hoodie
+	{
+		Money=25,
+		Result 		: Cat Hoodie,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+	item Striped Stockings
+	{
+		Type = Clothing,
+		DisplayName = Striped Stockings,
+		ClothingItem = StripedStockings,
+		BodyLocation = UnderwearExtra1,
+		Icon = StripedStockings,
+                                BloodLocation = Trousers,
+                                BiteDefense                    = 5,
+                                ScratchDefense              = 8,
+                                Insulation                       = 0.2,
+                                WindResistance              = 0.3,
+                                FabricType                      = Cotton,
+		Weight = 0.2,
+		WorldStaticModel = StockingsWhite_Ground,
+	}
+                recipe CAT***Buy Striped Stockings
+	{
+		Money=5,
+		Result 		: Striped Stockings,
+		Time 		: 50,
+                                Category:rabbitclothes,
+	}
+}

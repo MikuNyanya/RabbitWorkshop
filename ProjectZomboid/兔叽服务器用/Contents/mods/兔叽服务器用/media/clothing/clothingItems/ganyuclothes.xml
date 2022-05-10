@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\clothes\ganyuclothes.FBX</m_FemaleModel>
+	<m_GUID>b349844d-e10a-4120-80df-33bcce61c1d5</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\ganyu\ganyuclothes</textureChoices>
+</clothingItem>
