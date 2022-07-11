@@ -385,7 +385,7 @@ item 42
                                 BodyLocation = Shoes,
                                 BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
                                 NeckProtectionModifier 		= 1,
-                                Icon = 1,
+                                Icon = reisen,
 		StompPower 		                = 2.5,
                                 CanHaveHoles                                         = false,
                                 RunSpeedModifier                                  = 1.2,
