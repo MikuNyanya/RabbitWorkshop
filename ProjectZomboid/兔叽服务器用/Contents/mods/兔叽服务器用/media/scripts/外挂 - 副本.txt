@@ -1,0 +1,387 @@
+module Base
+{
+                item Little Busters
+                {
+                                Type = Clothing,
+                                DisplayName = Little Busters,
+                                ClothingItem = Little Busters,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+item 76
+	{
+		Type = Clothing,
+                                DisplayName = ak13,
+                                ClothingItem = 76,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+	recipe Buy 76
+	{
+		Money=300,
+		Result 		: 76,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 74
+	{
+		Type = Clothing,
+                                DisplayName = 浊心斯卡蒂,
+                                ClothingItem = 74,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 74
+	{
+		Money=300,
+		Result 		: 74,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+                item 入学新生
+                {
+                                Type = Clothing,
+                                DisplayName = 入学新生,
+                                ClothingItem = 入学新生,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+	recipe Buy 入学新生
+	{
+		Money=200,
+		Result 		: 入学新生,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+                item 水手夏装
+                {
+                                Type = Clothing,
+                                DisplayName = 水手夏装,
+                                ClothingItem = 水手夏装,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+                item 西点毕业生
+                {
+                                Type = Clothing,
+                                DisplayName = 西点毕业生,
+                                ClothingItem = 西点毕业生,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+                item 秋意渐浓
+                {
+                                Type = Clothing,
+                                DisplayName = 秋意渐浓,
+                                ClothingItem = 秋意渐浓,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+                item 猎人套装
+                {
+                                Type = Clothing,
+                                DisplayName = 狩猎套装,
+                                ClothingItem = 猎人套装,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+                item 生徒会长
+                {
+                                Type = Clothing,
+                                DisplayName = 生徒会长,
+                                ClothingItem = 生徒会长,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+	recipe Buy 6
+	{
+		Money=400,
+		Result 		: 6,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+		recipe Buy 283
+	{
+		Money=100,
+		Result 		: 283,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 240
+	{
+		Money=100,
+		Result 		: 240,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+
+		recipe Buy 猎人套装
+	{
+		Money=100,
+		Result 		: 猎人套装,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+		recipe Buy 170
+	{
+		Money=100,
+		Result 		: 170,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 275
+	{
+		Money=100,
+		Result 		: 275,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+		recipe Buy 170
+	{
+		Money=20,
+		Result 		: 170,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 44
+	{
+		Money=100,
+		Result 		: 44,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 55
+	{
+		Money=100,
+		Result 		: 55,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+
+	recipe Buy 66
+	{
+		Money=100,
+		Result 		: 66,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 53
+	{
+		Money=100,
+		Result 		: 53,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+
+	recipe Buy 88
+	{
+		Money=100,
+		Result 		: 88,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 173
+	{
+		Money=100,
+		Result 		: 173,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 02
+	{
+		Money=100,
+		Result 		: 02,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 01
+	{
+		Money=100,
+		Result 		: 01,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 11
+	{
+		Money=300,
+		Result 		: 11,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 2121
+	{
+		Money=100,
+		Result 		: 2121,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 12
+	{
+		Money=300,
+		Result 		: 12,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 0499
+	{
+		Money=400,
+		Result 		: 0499,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 003
+	{
+		Money=100,
+		Result 		: 003,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 西点毕业生
+	{
+		Money=100,
+		Result 		: 西点毕业生,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 秋意渐浓
+	{
+		Money=100,
+		Result 		: 秋意渐浓,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy Little Busters
+	{
+		Money=100,
+		Result 		: Little Busters,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 05
+	{
+		Money=100,
+		Result 		: 05,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 15
+	{
+		Money=300,
+		Result 		: 15,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 007
+	{
+		Money=300,
+		Result 		: 007,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 003
+	{
+		Money=300,
+		Result 		: 003,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 水手夏装
+	{
+		Money=200,
+		Result 		: 水手夏装,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+}
+
+
+
+
+
+
+
+

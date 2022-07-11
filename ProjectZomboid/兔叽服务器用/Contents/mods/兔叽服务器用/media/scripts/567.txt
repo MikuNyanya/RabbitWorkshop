@@ -1,0 +1,1309 @@
+module Base
+{
+item 937
+	{
+		Type = Clothing,
+                                DisplayName = W,
+                                ClothingItem = 937,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 937
+	{
+		Money=200,
+		Result 		: 937,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 40
+	{
+		Type = Clothing,
+                                DisplayName = 陈,
+                                ClothingItem = 40,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 40
+	{
+		Money=200,
+		Result 		: 40,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 77
+	{
+		Type = Clothing,
+                                DisplayName = 希儿,
+                                ClothingItem = 77,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 希儿,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 77
+	{
+		Money=200,
+		Result 		: 77,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 78
+	{
+		Type = Clothing,
+                                DisplayName = 薪炎,
+                                ClothingItem = 78,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 新炎之律者,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 78
+	{
+		Money=200,
+		Result 		: 78,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 79
+	{
+		Type = Clothing,
+                                DisplayName = AN94,
+                                ClothingItem = 79,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;ShirtLongSleeves;Trousers;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 79
+	{
+		Money=200,
+		Result 		: 79,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 80
+	{
+		Type = Clothing,
+                                DisplayName = 凯尔希,
+                                ClothingItem = 80,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 80
+	{
+		Money=200,
+		Result 		: 80,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 81
+	{
+		Type = Clothing,
+                                DisplayName = 薪炎2,
+                                ClothingItem = 81,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = item_新炎之律者,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.81,
+	}
+
+	recipe Buy 81
+	{
+		Money=200,
+		Result 		: 81,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 51
+	{
+		Type = Clothing,
+                                DisplayName = miki sayaka,
+                                ClothingItem = 51,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 20,
+                                BiteDefense 		                = 20,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 61
+	{
+		Type = Clothing,
+                                DisplayName = 1a,
+                                ClothingItem = 61,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 20,
+                                BiteDefense 		                = 20,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+	recipe Buy 55
+	{
+		Money=200,
+		Result 		: 55,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 56
+	{
+		Type = Clothing,
+                                DisplayName = 可谓,
+                                ClothingItem = 56,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 20,
+                                BiteDefense 		                = 20,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 56
+	{
+		Money=200,
+		Result 		: 56,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 57
+	{
+		Type = Clothing,
+                                DisplayName = 魔理沙,
+                                ClothingItem = 57,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 20,
+                                BiteDefense 		                = 20,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 57
+	{
+		Money=200,
+		Result 		: 57,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 58
+	{
+		Type = Clothing,
+                                DisplayName = 希尔维亚,
+                                ClothingItem = 58,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 20,
+                                BiteDefense 		                = 20,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 58
+	{
+		Money=200,
+		Result 		: 44,
+		Time 		: 58,
+		Category		: 不在服装店,
+	}
+item 59
+	{
+		Type = Clothing,
+                                DisplayName = NICO,
+                                ClothingItem = 59,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 20,
+                                BiteDefense 		                = 20,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 59
+	{
+		Money=200,
+		Result 		: 59,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 60
+	{
+		Type = Clothing,
+                                DisplayName = 内格夫,
+                                ClothingItem = 60,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = TRUE,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 60
+	{
+		Money=200,
+		Result 		: 60,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item aa2
+	{
+		Type = Clothing,
+                                DisplayName = 项圈,
+                                ClothingItem = aa2,
+		BodyLocation = Necklace,
+		Icon = Necklace_Silver,
+		BloodLocation = Neck,
+       		ScratchDefense = 15,
+        	BiteDefense = 15,
+        		NeckProtectionModifier = 0.5,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+	}
+
+	recipe Buy aa2
+	{
+		Money=200,
+		Result 		: aa2,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 42
+	{
+		Type = Clothing,
+                                DisplayName = 铃仙,
+                                ClothingItem = 42,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 40,
+                                BiteDefense 		                = 40,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 42
+	{
+		Money=200,
+		Result 		: 42,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 29
+	{
+		Type = Clothing,
+                                DisplayName = 爱莉西雅,
+                                ClothingItem = 29,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+ RemoveOnBroken = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 40,
+                                BiteDefense 		                = 40,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+WaterResistance = 1.0,
+	}
+
+	recipe Buy 29
+	{
+		Money=200,
+		Result 		: 29,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 31
+	{
+		Type = Clothing,
+                                DisplayName = 斯卡蒂,
+                                ClothingItem = 31,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 40,
+                                BiteDefense 		                = 40,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 31
+	{
+		Money=200,
+		Result 		: 31,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 20
+	{
+		Type = Clothing,
+                                DisplayName = 早苗,
+                                ClothingItem = 35,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 20
+	{
+		Money=200,
+		Result 		: 20,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 21
+	{
+		Type = Clothing,
+                                DisplayName = 鹿目圆,
+                                ClothingItem = 21,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 21
+	{
+		Money=200,
+		Result 		: 21,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 22
+	{
+		Type = Clothing,
+                                DisplayName = 阿波尼亚,
+                                ClothingItem = 22,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 阿波尼亚,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 22
+	{
+		Money=200,
+		Result 		: 22,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 38
+	{
+		Type = Clothing,
+                                DisplayName = AK12,
+                                ClothingItem = 38,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 38
+	{
+		Money=200,
+		Result 		: 38,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 23
+	{
+		Type = Clothing,
+                                DisplayName = 紫,
+                                ClothingItem = 23,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 23
+	{
+		Money=200,
+		Result 		: 23,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 24
+	{
+		Type = Clothing,
+                                DisplayName = 梅比乌斯,
+                                ClothingItem = 24,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 梅比乌斯,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 24
+	{
+		Money=200,
+		Result 		: 24,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 25
+	{
+		Type = Clothing,
+                                DisplayName = 巴麻美,
+                                ClothingItem = 25,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+	recipe Buy 12
+	{
+		Money=200,
+		Result 		: 12,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+	recipe Buy 25
+	{
+		Money=200,
+		Result 		: 25,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 26
+	{
+		Type = Clothing,
+                                DisplayName = 杏子,
+                                ClothingItem = 26,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 26
+	{
+		Money=200,
+		Result 		: 26,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 27
+	{
+		Type = Clothing,
+                                DisplayName = 海拉,
+                                ClothingItem = 27,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 27
+	{
+		Money=200,
+		Result 		: 27,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 28
+	{
+		Type = Clothing,
+                                DisplayName = 大板鸭,
+                                ClothingItem = 28,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 大板鸭,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 28
+	{
+		Money=200,
+		Result 		: 28,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 30
+	{
+		Type = Clothing,
+                                DisplayName = 篝之雾枝,
+                                ClothingItem = 30,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 30
+	{
+		Money=200,
+		Result 		: 30,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 007
+	{
+		Type = Clothing,
+                                DisplayName = 十六夜咲夜,
+                                ClothingItem = 007,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 16,
+		StompPower 		                = 999,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 191
+	{
+		Type = Clothing,
+                                DisplayName = 五更琉璃 ,
+                                ClothingItem = 161,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 15
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 15,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 15
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 15,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 		                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 003
+	{
+		Type = Clothing,
+                                DisplayName = 夏娜,
+                                ClothingItem = 003,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 50,
+                                BiteDefense 		                = 50,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 05
+	{
+		Type = Clothing,
+                                DisplayName = 甘雨,
+                                ClothingItem = 05,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 甘雨,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 		                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 0499
+	{
+		Type = Clothing,
+                                DisplayName = 灵梦,
+                                ClothingItem = 0499,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 灵梦,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 50,
+                                BiteDefense 		                = 50,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 55
+	{
+		Type = Clothing,
+                                DisplayName = 美树沙耶加,
+                                ClothingItem = 55,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 11
+	{
+		Type = Clothing,
+                                DisplayName = 斯卡哈,
+                                ClothingItem = 11,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 50,
+                                BiteDefense 	                                = 50,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+                item 2121
+                {
+                                Type = Clothing,
+                                DisplayName = 2121,
+                                ClothingItem = 2121,
+                                BodyLocation = Jacket,
+                                
+                                BloodLocation = Jacket,
+                                BiteDefense                    = 15,
+                                ScratchDefense              = 25,
+                                NeckProtectionModifier = 0.5,
+                                Insulation                       = 0.60,
+                                WindResistance              = 0.75,
+                                Weight                            = 2.0,
+                                FabricType                      = Cotton,
+                                
+                }
+item 283
+	{
+		Type = Clothing,
+                                DisplayName = pql,
+                                ClothingItem = 283,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+item 240
+	{
+		Type = Clothing,
+                                DisplayName = uuz,
+                                ClothingItem = 240,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 240,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 01
+	{
+		Type = Clothing,
+                                DisplayName = 魂魄妖梦,
+                                ClothingItem = 01,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 妖梦,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+item 02
+	{
+		Type = Clothing,
+                                DisplayName = 云堇,
+                                ClothingItem = 02,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 云堇,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 44
+	{
+		Type = Clothing,
+                                DisplayName = 帕秋莉诺雷姬,
+                                ClothingItem = 44,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 66
+	{
+		Type = Clothing,
+                                DisplayName = 晓美焰,
+                                ClothingItem = 66,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 88
+	{
+		Type = Clothing,
+                                DisplayName = 金色之暗,
+                                ClothingItem = 88,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 6
+	{
+		Type = Clothing,
+                                DisplayName = 六道斑,
+                                ClothingItem = 6,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 70,
+                                BiteDefense 	                                = 70,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 53
+	{
+		Type = Clothing,
+                                DisplayName = 黑贞德,
+                                ClothingItem = 53,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 12
+	{
+		Type = Clothing,
+                                DisplayName = 摩多罗隐岐奈,
+                                ClothingItem = 12,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 摩多罗,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 50,
+                                BiteDefense 	                                = 50,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 275
+	{
+		Type = Clothing,
+                                DisplayName = 蓬莱山辉夜,
+                                ClothingItem = 275,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 辉夜,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 35,
+                                BiteDefense 	                                = 35,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 170
+	{
+		Type = Clothing,
+                                DisplayName = 五河琴里,
+                                ClothingItem = 170,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 10,
+                                BiteDefense 	                                = 10,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item 4
+	{
+		Type = Clothing,
+                                DisplayName = 赫斯提亚,
+                                ClothingItem = 4,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item Naganami
+	{
+		Type = Clothing,
+                                DisplayName = 长波,
+                                ClothingItem = Naganami,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 10,
+                                BiteDefense 	                                = 10,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+	item 173
+	{
+		Type = Clothing,
+                                DisplayName = 天道佩恩,
+                                ClothingItem = 173,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 啊,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 30,
+                                BiteDefense 	                                = 30,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+item aa
+                {
+                DisplayCategory = Bag,
+                Type	                                    = Container,
+                DisplayName	                    = aa,
+                ClothingItem                                = aa,
+                Icon                         = 1,
+                CanBeEquipped                            = Exoskeleton,
+                BodyLocation                               = Exoskeleton,
+                ClothingItemExtra = aa,
+                ClothingItemExtraOption = FannyPack_WearFront,
+                clothingExtraSubmenu = FannyPack_WearBack,
+                Capacity	                                    = 100,
+                WeightReduction	                    = 95,
+                PutInSound                                  =PutItemInBag,
+                RunSpeedModifier = 1.10,
+                Weight	                                    =0.1,
+             
+                }
+	item aa1
+                {
+                DisplayCategory = Bag,
+                Type	                                    = Container,
+                DisplayName	                    = aa1,
+                ClothingItem                                = aa1,
+                Icon                         = 1,
+                CanBeEquipped                            = Exoskeleton,
+                BodyLocation                               = Exoskeleton,
+                ClothingItemExtra = aa1,
+                ClothingItemExtraOption = FannyPack_WearBack,
+                clothingExtraSubmenu = FannyPack_WearFront,
+                Capacity	                                    = 200,
+                WeightReduction	                    = 100,
+                PutInSound                                  =PutItemInBag,
+                RunSpeedModifier = 1.10,
+                Weight	                                    =0.1,
+    
+                }
+
+	recipe Other***Buy aa
+	{
+		Money=200,
+		Result 		: aa,
+		Time 		: 50,
+                                Category:不在服装店,
+	}
+}	
+item 111
+	
+	{
+		DisplayCategory 		= WeaponCrafted,
+		MaxRange 		= 1.45,
+		WeaponSprite 		= 111,
+		MinAngle 		= 0.8,
+		Type 		= Weapon,
+		MinimumSwingTime 		= 2,
+		KnockBackOnNoDeath 		= FALSE,
+		SwingAmountBeforeImpact 		= 0.02,
+		Categories 		= Improvised;Spear,
+		ConditionLowerChanceOneIn 		= 20,
+		Weight 		= 1.5,
+		SplatNumber 		= 1,
+		PushBackMod 		= 0.3,
+		SubCategory 		= Spear,
+		ConditionMax 		= 7,
+		MaxHitCount 		= 2,
+		DoorDamage 		= 5,
+		SwingAnim 		= Spear,
+		DisplayName 		= 死翔之枪,
+		MinRange 		= 0.98,
+		SwingTime 		= 2,
+		KnockdownMod 		= 0,
+		SplatBloodOnNoDeath 		= FALSE,
+		Icon 		= 111,
+		RunAnim 		= Run_Weapon2,
+		IdleAnim 		= Idle_Weapon2,
+		TreeDamage 		= 0,
+		TwoHandWeapon 		= TRUE,
+		CriticalChance 		= 30,
+		CritDmgMultiplier 		= 10,
+		MinDamage 		= 1,
+		MaxDamage 		= 1.6,
+		DamageCategory 		= Slash,
+		DamageMakeHole 		= TRUE,
+		BreakSound 		= SpearKnifeBreak,
+		HitFloorSound 		= SpearKnifeHit,
+		ImpactSound 		= SpearKnifeHit,
+		DoorHitSound 		= SpearKnifeHit,
+		HitSound 		= SpearKnifeHit,
+		SwingSound 		= SpearKnifeSwing,
+		AttachmentType 		= Shovel,
+		Tags 		= FishingSpear,
+	}
+                model 111
+                {
+                                mesh = weapons/111,
+                                texture = weapons/111,
+                }
+	recipe 111
+	{
+		Money=110,
+		Result 		: 111,
+		Time 		: 50,
+                                Category:二次元工程,
+	}
+
+}

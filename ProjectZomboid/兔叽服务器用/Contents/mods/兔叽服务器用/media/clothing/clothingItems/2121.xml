@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\567\2121.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\567\2121.FBX</m_FemaleModel>
+	<m_GUID>856b703f-b022-402e-b57d-5d7b89c4256f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Character\2121</textureChoices>
+</clothingItem>

@@ -1,0 +1,156 @@
+item 70
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 70,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 9999,
+                                BiteDefense 		                = 9999,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 70
+	{
+		Money=300,
+		Result 		: 70,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 71
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 71,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 9999,
+                                BiteDefense 		                = 9999,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 71
+	{
+		Money=300,
+		Result 		: 71,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 72
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 72,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 9999,
+                                BiteDefense 		                = 9999,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 72
+	{
+		Money=300,
+		Result 		: 72,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 73
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 73,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 9999,
+                                BiteDefense 		                = 9999,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 73
+	{
+		Money=300,
+		Result 		: 73,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 74
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 74,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 9999,
+                                BiteDefense 		                = 9999,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 74
+	{
+		Money=300,
+		Result 		: 74,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}
+item 75
+	{
+		Type = Clothing,
+                                DisplayName = 奥西里斯,
+                                ClothingItem = 75,
+                                BodyLocation = Shoes,
+                                BloodLocation = Head;Neck;Trousers;Jumper;Hands;Shoes,
+                                NeckProtectionModifier 		= 1,
+                                Icon = 1,
+		StompPower 		                = 2.5,
+                                CanHaveHoles                                         = false,
+                                RunSpeedModifier                                  = 1.2,
+                                CombatSpeedModifier 		= 1.1,
+                                ScratchDefense 	                                = 9999,
+                                BiteDefense 		                = 9999,
+                                Insulation = 0.55,
+                                WindResistance = 0.75,
+	}
+
+	recipe Buy 75
+	{
+		Money=300,
+		Result 		: 75,
+		Time 		: 20,
+		Category		: 不在服装店,
+	}

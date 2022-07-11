@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\567\水手夏装.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\567\水手夏装.FBX</m_FemaleModel>
+	<m_GUID>d9927e32-1d63-9bde-1592-748224018454</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Character\水手夏装</textureChoices>
+</clothingItem>
